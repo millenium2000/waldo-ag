@@ -10,6 +10,8 @@ threshold_percent = 0.015
 threshold_percent = 0.05
 threshold = math.ceil(255*math.sqrt(3)*threshold_percent) #6
 
+_asdf = 10
+
 
 def savejpeg(fname, img, quality=95):
 	cv2.imwrite(fname, img, [int(cv2.IMWRITE_JPEG_QUALITY), quality])
@@ -53,7 +55,7 @@ def drawRectangle(p, img1, img2):
 	img1[yTo,xFrom:xTo,2] = 255
 	img1[yFrom:yTo,xFrom,2] = 255
 	img1[yFrom:yTo,xTo,2] = 255
-	savejpeg("tmp.jpg", img1, 100)
+	savejpeg("../target/tmp.jpg", img1, 100)
 	return
 
 
