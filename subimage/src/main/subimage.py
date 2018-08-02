@@ -104,9 +104,9 @@ def main():
 		help='first input jpeg image file name')
 	parser.add_argument('file2',
 		help='second input jpeg image file name')
-	parser.add_argument('--similarity', type=float, default=0.95, metavar="FROM_0.0_TO_1.0",
+	parser.add_argument('-s', '--similarity', type=float, default=0.95, metavar="FROM_0.0_TO_1.0",
 		help='minimum similarity threshold')
-	parser.add_argument('--out', type=str, default=None, metavar="FILE_NAME",
+	parser.add_argument('-o', '--out', type=str, default=None, metavar="FILE_NAME",
 		help='filename of the image to save (with bounding rectangle around found sub-image location)')
 	opts = parser.parse_args()
 	
