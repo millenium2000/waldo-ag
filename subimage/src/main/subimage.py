@@ -99,7 +99,7 @@ def run(fname1:str, fname2:str, similarity:float=0.95, fnameOut:str=None):
 
 
 def main():
-	parser = argparse.ArgumentParser(description='Process some integers.')
+	parser = argparse.ArgumentParser(description='Tries to find a location of one JPEG image inside another')
 	parser.add_argument('file1',
 		help='first input jpeg image file name')
 	parser.add_argument('file2',
