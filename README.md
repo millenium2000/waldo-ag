@@ -4,7 +4,7 @@ Solution to "Waldo Photos Engineering Project" <br/>
 
 It is implemented in Python3 and the assumption is that you have all the necessary dependancies installed.
 
-Please also look at [results/summary.pdf](results/summary.pdf) document.
+Please also look at [results/summary.pdf](subimage/results/summary.pdf) document.
 
 
 # project sturcture
